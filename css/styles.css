@@ -11553,7 +11553,33 @@ header.masthead .h1 {
 }
 
 #java-img{
-  height: 75%;
+  /* height: 75%; */
   width: 75%;
-  margin-bottom: 7%;
+  /* padding-right: 35%; */
+  padding-left: 0;
+  /* margin-left: 10%; */
+  margin-right:75%;
+}
+#java-img img{
+  border-radius: 15%;
+}
+
+/* #project1{
+  padding: 0;
+  width: fit-content;
+  margin-left: 0;
+} */
+
+#completed{
+  width: 40%;
+  padding: 0;
+}
+
+#completed img{
+  border-radius: 15%;
+  padding: 0;
+}
+
+#project2 {
+  margin-right: 10%
 }
