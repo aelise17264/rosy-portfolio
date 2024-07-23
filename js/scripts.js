@@ -53,6 +53,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
   new SimpleLightbox({
     elements: "#portfolio a.portfolio-box",
   });
+
+  $('.carousel').carousel()
 });
 
 

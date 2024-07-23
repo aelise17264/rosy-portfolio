@@ -11563,13 +11563,18 @@ header.masthead .h1 {
 #java-img img{
   border-radius: 15%;
 }
+#portfolio-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* #project1{
   padding: 0;
   width: fit-content;
   margin-left: 0;
 } */
-
+/* 
 #completed{
   width: 40%;
   padding: 0;
@@ -11582,4 +11587,49 @@ header.masthead .h1 {
 
 #project2 {
   margin-right: 10%
-}
+} */
+
+.img-size{
+  /* 	padding: 0;
+    margin: 0; */
+    height: 450px;
+    width: 700px;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .modal-content {
+     width: 700px;
+    border:none;
+  }
+  .modal-body {
+     padding: 0;
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
+  }
+  .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    width: 30px;
+    height: 48px;
+  }
+
+  .carousel-control.left, .carousel-control.right {
+    left: 0;
+    z-index: 1;
+  }
+
+  .portfolio-explainer{
+    display: none;
+  }
+
+  .hover:hover+.portfolio-explainer{
+    display: block;
+
+  }
+
+  #workfromhome{
+    border: solid 25px white;
+  }
